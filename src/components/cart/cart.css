@@ -1,0 +1,23 @@
+.cart-component {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-component h2 {
+  margin-top: 0;
+}
+
+table, th, td {
+  border: 1px solid;;
+}
+
+.cart-component label {
+  display: block;
+}
+
+.cart-component form input {
+  margin: 5px;
+  padding: 2px;
+}

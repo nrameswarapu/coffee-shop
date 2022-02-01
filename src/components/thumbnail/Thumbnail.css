@@ -1,0 +1,43 @@
+.thumbnail-component {
+  background: var(--dark-bg);
+  border-radius: 15px;
+  box-sizing: border-box;
+  display: block;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail-component:focus {
+  outline: none;
+  border: solid #FFF 1px;
+}
+
+.thumbnail-component img {
+  max-width: 150px;
+  width: 100%;
+  /* transition: transform 333ms ease; */
+  transition: transform 333ms cubic-bezier(.17,.67,.41,1.32);
+}
+
+.thumbnail-component img:hover {
+  transform: scale(1.2);
+  /*transition: transform 1000ms ease-in;*/
+}
+
+.thumbnail-component div.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border-radius: 0 0 14px 14px;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+header {
+  display:flex;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: var(--dark-bg);
+}
+
+header h1 {
+  flex: 1 1 auto;
+  padding: 0;
+  margin: 0;
+}
+
+header h1 a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+header .cart {
+  flex: 0 0 50px;
+  display: inline-block;
+  position: relative;
+}
+
+header .cart img {
+  width: 100%;
+}
+
+header .cart .badge {
+  min-width: 16px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #FF0000;
+  color: #FFF;
+  font-weight: bold;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  text-align: center;
+}
